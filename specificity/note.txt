@@ -1,0 +1,2 @@
+When you come to a point where two or more style will be applied
+to the same element by only one of those is gonna take effect

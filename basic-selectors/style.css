@@ -1,0 +1,59 @@
+/* Type Selectors */
+
+/* h2 {
+  color: red;
+  font-size: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+} */
+
+/* Class Selectors */
+/* Most of the time we will be using classes */
+
+/* Universal Selector */
+* {
+
+}
+
+html, body {
+  font-family: 'Arial', sans-serif;
+  border: 3px solid red; /* wont be inherited */
+}
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: brown;
+}
+
+/* Id Selectors */
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Multiple styles */
+.sporty,
+.casual {
+  font-size: 35px;
+}
+
+p {
+  background-color: red;
+}
+
+/* Descendant styles */
+/* target all the paragraph in the container */
+/* saying the pargraph in the container is more specific that saying all paragraphs */
+#container p {
+  background-color: blue;
+}
